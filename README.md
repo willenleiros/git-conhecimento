@@ -30,3 +30,7 @@ Para trazer uma cópia do projeto que está em um repositorio remoto você deve 
 | `git log`  | Ver histórico de commits   |
 | `git reset --hard origin/master`  | Descartar projeto local e trazer tudo que tem de novo no git remoto |
 | `git remote prune origin`  | Deletar referencias de branch remotas excluídas    |
+| `git clean -f`  | Remove arquivos que ainda não estão na área de preparação    |
+| `git clean -d`  | Remove diretórios que ainda não estão na área de preparação  |
+
+
