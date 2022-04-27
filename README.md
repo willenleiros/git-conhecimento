@@ -17,6 +17,7 @@ Para trazer uma cópia do projeto que está em um repositorio remoto você deve 
 | Comando | Resultado |
 | :--------: | :--------: |
 | `git checkout dev`   |  Muda para branch de desenvolvimento  |
+| `git pull origin dev`	|	Puxa o trabalho para o repositório local	|
 | `git checkout -b feature/nome-branch`  | Cria uma nova branch de trabalhos e muda para a mesma  |
 | `git add .`  | Adiciona todas as alterações na área de preparação do Git |
 | `git commit -m "feat: ops fiz alguma coisa" -m "issue: IMW-700"`  | Marcar as alteracões feitas que estão na área de preparação e adiciona mensagens explicativas sobre o trabalho  |
