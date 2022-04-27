@@ -33,4 +33,20 @@ Para trazer uma cópia do projeto que está em um repositorio remoto você deve 
 | `git clean -f`  | Remove arquivos que ainda não estão na área de preparação    |
 | `git clean -d`  | Remove diretórios que ainda não estão na área de preparação  |
 
+# Rebase
+
+"Rebase é um dos dois utilitários do Git que se especializam em integrar alterações da ramificação para outra." ([Atlassian](https://www.atlassian.com/br/git/tutorials/rewriting-history/git-rebase))
+
+| Comando | Resultado |
+| :--------: | :--------: |
+| `git checkout dev`	|	Muda para branch de desenvolvimento	|
+| `git pull origin dev`	|	Puxa o trabalho para o repositório local	|
+| `git checkout <branch>`	|	Muda para branch onde vai ser feito o rebase	|
+| `git rebase dev`	|	Junta o código local com o código online e mostra os conflitos	|
+(corrige os conflitos)
+| `git add .`	|	Prepara todos os arquivos	|
+| `git rebase --continue`	|	Continua o rebase depois de resolver os conflitos manualmente	|
+| `:q`	|	"Quit" quando o git mandar a mensagem você responde com esse comando	|
+| `git push --force origin HEAD`	|	Envia o trabalho para repositório remoto, criando uma branch com mesmo nome da branch local	|
+
 
