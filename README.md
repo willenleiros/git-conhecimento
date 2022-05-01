@@ -12,7 +12,7 @@ Git é um sistema de controle de versão distribuído gratuito e de código aber
 
 # Trabalhos em uma Sprint
 
-Para trazer uma cópia do projeto que está em um repositorio remoto você deve executar o seguinte comando `git clone https://gitlab.com/user/repositorio-exemplo.git`
+Para trazer uma cópia do projeto que está em um repositorio remoto você deve executar o seguinte comando `https://github.com/willenleiros/git-conhecimento.git`
 
 | Comando | Resultado |
 | :--------: | :--------: |
